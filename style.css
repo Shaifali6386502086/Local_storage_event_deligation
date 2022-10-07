@@ -1,0 +1,21 @@
+.plates input{
+    display:none;
+  }
+  .plates input+label:before{
+    content:' ';
+    margin-right:30px;
+  }
+  plates input:checked+label:before{
+    content:' ';
+  }
+  
+  .add_items{
+    
+    margin-top:40px;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #8c0808;
+    border-radius: 9px;
+  
+  }
